@@ -37,6 +37,16 @@ r 表示可读取，w 表示可写入，x 表示可执行，X 表示只有当该
 
 8、Git错误提示之：fatal: Not a git repository (or any of the parent directories): .git
   (1)git init
-  (2)git status
-  (3)git add .
+  (2)git add .
+  (3)git status
+  (4)git commit -m "works to display video"
+  (5)git push
+  echo "# twicthslam" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/BCCWAI/twicthslam.git
+  git push -u origin master
+
+
 
